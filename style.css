@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #FFFFF0 !important;
+}
+
+nav {
+    z-index: 1;
+    
+}
+
+nav div a {
+    display: flex;
+}
+
+nav div a img {
+    width: 40px;
+}
+
+nav div a {
+    color: #005c8e !important;
+}
+
+nav div a span {
+    color: #e7717d;
+}
+
+#LogInBtn {
+    background-color: #e7717d;
+    color: aliceblue;
+}
+
+#IntroductieSect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFF0;
+    position: relative;
+    padding: 10%;
+    z-index: 0;
+    overflow: 0;
+}
+
+#IntroductieSect > img {
+    position: absolute;
+    left: -25%;
+    top: 25%;
+    z-index: -1;
+    width: 50%;
+}
+
+#IntroductieSect > h1 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+#IntroductieDiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    box-shadow: 5px;
+    border-radius: 10px;
+    border: solid;
+    z-index: 2;
+}
+
+#IntroductieDiv img{
+    width: 30%;
+    border-radius: 10px;
+}
+
+
+#IntroductieTextDiv {
+    width: 50%;
+    z-index: 2;
+}
