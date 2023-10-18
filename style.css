@@ -14,6 +14,10 @@ nav {
     
 }
 
+a span {
+    color: #e7717d;
+}
+
 nav div a {
     display: flex;
 }
@@ -24,10 +28,6 @@ nav div a img {
 
 nav div a {
     color: #005c8e !important;
-}
-
-nav div a span {
-    color: #e7717d;
 }
 
 #LogInBtn {
@@ -46,16 +46,22 @@ nav div a span {
     overflow: 0;
 }
 
+#IntroductieSect span {
+    color: #e7717d;
+    font-weight: 900;
+}
+
 #IntroductieSect > img {
     position: absolute;
-    left: -25%;
-    top: 25%;
-    z-index: -1;
+    left: -26%;
+    top: 30%;
+    z-index: 3;
     width: 50%;
 }
 
 #IntroductieSect > h1 {
-    font-family: 'Montserrat', sans-serif !important;
+    font-size: 5em;
+    color: #005c8e;
 }
 
 #IntroductieDiv {
@@ -73,8 +79,20 @@ nav div a span {
     border-radius: 10px;
 }
 
+#IntroductieDiv p {
+    margin-top: 20px;
+}
+
 
 #IntroductieTextDiv {
     width: 50%;
     z-index: 2;
+}
+
+small {
+    border-bottom: 1px solid #e7717d;
+}
+
+p {
+    font-size: 1.5em;
 }
