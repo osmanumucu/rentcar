@@ -11,16 +11,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Poppins:ital,wght@0,200;1,200&display=swap"
-        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg p-lg-4">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand fs-3" href="#"><img src="images/logo.png" alt=""> Rent<span
                     class="fw-bold">Car</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -50,7 +48,7 @@
     <section id="IntroductieSect">
         <h1>Rent<span>Car</span></h1>
         <img src="images/IntroductieSectImgLeft.png" alt="">
-        <div class="shadow-lg" id="IntroductieDiv">
+        <div class="shadow" id="IntroductieDiv">
             <div id="IntroductieTextDiv">
                 <h1>Huur de beste autos naar je eigen keuze</h1>
                 <small>VANAF 1978 - UW VERTROUWDE PARTNER IN AUTOVERHUUR</small>
@@ -62,8 +60,29 @@
         </div>
     </section>
     <section id="CarouselSect">
-
+        <div id="carouselExample" class="carousel slide shadow">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/carousel-img(1).png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel-img(2).png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel-img(1).png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
+
 </body>
 
 </html>
