@@ -5,22 +5,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 body {
     background-color: #FFFFF0 !important;
 }
 
-nav {
-    z-index: 1;
-}
-
 a span {
     color: #e7717d;
-}
-
-nav div a {
-    display: flex;
 }
 
 nav div a img {
@@ -52,42 +42,40 @@ nav div a {
     font-weight: 900;
 }
 
-#IntroductieSect > img {
-    position: absolute;
-    left: -26%;
-    top: 30%;
-    z-index: 3;
-    width: 50%;
-}
-
 #IntroductieSect > h1 {
     font-size: 5em;
     color: #005c8e;
 }
 
+#IntroductieSect > img {
+    position: absolute;
+    left: -226%;
+    top: 30%;
+    z-index: 3;
+    width: 50%;
+}
+
 #IntroductieDiv {
     display: flex;
-    justify-content: space-around;
-    padding: 5%;
-    box-shadow: 5px;
-    border-radius: 10px;
-    border: solid;
-    z-index: 2;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    padding: 15% 10%;
 }
 
 #IntroductieDiv img{
-    width: 30%;
+    width: 80%;
     border-radius: 10px;
+}
+
+#IntroductieTextDiv {
+    width: 100%;
+    z-index: 2;
 }
 
 #IntroductieDiv p {
     margin-top: 20px;
-}
-
-
-#IntroductieTextDiv {
-    width: 50%;
-    z-index: 2;
 }
 
 small {
@@ -100,4 +88,94 @@ p {
 
 #CarouselSect {
     padding: 5% 10%;
+}
+
+#AutoSoortenSect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10%;
+}
+
+.img {
+    width: 50%;
+}
+
+.AutoSoort {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+}
+
+.AutoSoort a {
+    text-decoration: none;
+}
+
+#SliderSect {
+    padding: 10% 10%;
+}
+
+#slider {
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+.slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+@media (min-width: 992px) {
+    #IntroductieSect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFFFF0;
+        position: relative;
+        padding: 5% 10%;
+        z-index: 0;
+        overflow: 0;
+    }
+
+    #IntroductieDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5%;
+        border-radius: 10px;
+        border: solid;
+        z-index: 2;
+        text-align: start;
+    }
+
+    #IntroductieDiv img{
+        width: 30%;
+        border-radius: 10px;
+    }
+
+    #IntroductieTextDiv {
+        width: 50%;
+        z-index: 2;
+    }
+
+    #IntroductieSect > img {
+        position: absolute;
+        left: -26%;
+        top: 25%;
+        z-index: 3;
+        width: 50%;
+    }
+
+    #AutoSoortenDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
 }
