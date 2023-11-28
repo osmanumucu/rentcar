@@ -9,11 +9,40 @@ body {
     background-color: #FFFFF0 !important;
 }
 
+.nav-link {
+    display: inline-block;
+    position: relative;
+}
+
+nav > div > div > ul > li > .nav-link:hover {
+    background-color: #e7717d;
+    color: white !important;
+    border-radius: 5%;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 a span {
     color: #e7717d;
 }
 
-nav div a img {
+.logo {
     width: 40px;
 }
 
@@ -42,12 +71,12 @@ nav div a {
     font-weight: 900;
 }
 
-#IntroductieSect > h1 {
+#IntroductieSect>h1 {
     font-size: 5em;
     color: #005c8e;
 }
 
-#IntroductieSect > img {
+#IntroductieSect>img {
     position: absolute;
     left: -226%;
     top: 30%;
@@ -64,7 +93,7 @@ nav div a {
     padding: 15% 10%;
 }
 
-#IntroductieDiv img{
+#IntroductieDiv img {
     width: 80%;
     border-radius: 10px;
 }
@@ -90,45 +119,43 @@ p {
     padding: 5% 10%;
 }
 
-#AutoSoortenSect {
+#InformatieSection {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding: 5% 10%;
+    padding: 5% 5%;
 }
 
-.img {
+.InfoDiv>img {
+    width: 25%;
+    height: auto;
+    background-color: #e7717d;
+    padding: 7%;
+    border-radius: 50%;
+}
+
+.InfoDiv {
+    height: 100px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15% 5%;
+    background-color: #FFFFF0;
+}
+
+.InfoDiv>div {
     width: 50%;
 }
 
-.AutoSoort {
-    display: flex;
+footer {
+    background-color: rgb(42, 42, 42);
+    color: white;
+}
+
+footer > div {
     flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    text-align: center;
-}
-
-.AutoSoort a {
-    text-decoration: none;
-}
-
-#SliderSect {
-    padding: 10% 10%;
-}
-
-#slider {
-    height: 100px;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: auto;
-}
-
-.slider .slide-track {
-    animation: scroll 40s linear infinite;
-    display: flex;
-    width: calc(250px * 14);
+    padding: 0% 10%;
 }
 
 @media (min-width: 992px) {
@@ -154,7 +181,7 @@ p {
         text-align: start;
     }
 
-    #IntroductieDiv img{
+    #IntroductieDiv img {
         width: 30%;
         border-radius: 10px;
     }
@@ -164,7 +191,7 @@ p {
         z-index: 2;
     }
 
-    #IntroductieSect > img {
+    #IntroductieSect>img {
         position: absolute;
         left: -26%;
         top: 25%;
@@ -172,10 +199,34 @@ p {
         width: 50%;
     }
 
-    #AutoSoortenDiv {
+    #InformatieSection {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5% 10%;
+        background-color: rgba(194, 194, 179, 0.576)
+    }
+
+    .InfoDiv {
+        width: 24%;
+        padding: 0;
+    }
+
+    .InfoDiv>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer {
+        padding: 5% 0%;
+    }
+
+    footer > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }

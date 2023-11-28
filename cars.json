@@ -1,0 +1,48 @@
+[
+    {
+        "Mark":"Ford",
+        "Model":"Fiesta",
+        "Year": "2010",
+        "Doors":"5",
+        "AC": "Ja",
+        "Transmission":"Automaat",
+        "Fuel Type":"Benzine",
+        "Price Range": "1"
+    },
+    {
+        "Mark":"Audi",
+        "Model":"A3",
+        "Year": "2013",
+        "Doors":"5",
+        "AC": "Ja",
+        "Transmission":"Automaat",
+        "Fuel Type":"Benzine"
+    },
+    {
+        "Mark":"Volkswagen",
+        "Model":"Golf",
+        "Year": "2012",
+        "Doors":"5",
+        "AC": "Ja",
+        "Transmission":"Automaat",
+        "Fuel Type":"Benzine"
+    },
+    {
+        "Mark":"BMW",
+        "Model":"530d",
+        "Year": "2011",
+        "Doors":"5",
+        "AC": "Ja",
+        "Transmission":"Automaat",
+        "Fuel Type":"Diesel"
+    },
+    {
+        "Mark":"Mercedes",
+        "Model":"A180",
+        "Year": "2015",
+        "Doors":"5",
+        "AC": "Ja",
+        "Transmission":"Automaat",
+        "Fuel Type":"Benzine"
+    }
+]
