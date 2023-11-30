@@ -1,48 +1,53 @@
-[
-    {
-        "Mark":"Ford",
-        "Model":"Fiesta",
-        "Year": "2010",
-        "Doors":"5",
-        "AC": "Ja",
-        "Transmission":"Automaat",
-        "Fuel Type":"Benzine",
-        "Price Range": "1"
-    },
-    {
-        "Mark":"Audi",
-        "Model":"A3",
-        "Year": "2013",
-        "Doors":"5",
-        "AC": "Ja",
-        "Transmission":"Automaat",
-        "Fuel Type":"Benzine"
-    },
-    {
-        "Mark":"Volkswagen",
-        "Model":"Golf",
-        "Year": "2012",
-        "Doors":"5",
-        "AC": "Ja",
-        "Transmission":"Automaat",
-        "Fuel Type":"Benzine"
-    },
-    {
-        "Mark":"BMW",
-        "Model":"530d",
-        "Year": "2011",
-        "Doors":"5",
-        "AC": "Ja",
-        "Transmission":"Automaat",
-        "Fuel Type":"Diesel"
-    },
-    {
-        "Mark":"Mercedes",
-        "Model":"A180",
-        "Year": "2015",
-        "Doors":"5",
-        "AC": "Ja",
-        "Transmission":"Automaat",
-        "Fuel Type":"Benzine"
+{
+    "autos": {
+      "S": {
+        "modellen": [
+          {
+            "naam": "Model X1",
+            "prijs": "€100,000 - €150,000"
+          },
+          {
+            "naam": "Model X2",
+            "prijs": "€120,000 - €170,000"
+          }
+        ]
+      },
+      "A": {
+        "modellen": [
+          {
+            "naam": "Model A1",
+            "prijs": "€80,000 - €100,000"
+          },
+          {
+            "naam": "Model A2",
+            "prijs": "€85,000 - €105,000"
+          }
+        ]
+      },
+      "B": {
+        "modellen": [
+          {
+            "naam": "Model B1",
+            "prijs": "€60,000 - €80,000"
+          },
+          {
+            "naam": "Model B2",
+            "prijs": "€65,000 - €85,000"
+          }
+        ]
+      },
+      "C": {
+        "modellen": [
+          {
+            "naam": "Model C1",
+            "prijs": "€40,000 - €60,000"
+          },
+          {
+            "naam": "Model C2",
+            "prijs": "€45,000 - €65,000"
+          }
+        ]
+      }
     }
-]
+  }
+  
