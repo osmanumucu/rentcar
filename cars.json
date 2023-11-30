@@ -1,53 +1,129 @@
 {
-    "autos": {
-      "S": {
-        "modellen": [
-          {
-            "naam": "Model X1",
-            "prijs": "€100,000 - €150,000"
-          },
-          {
-            "naam": "Model X2",
-            "prijs": "€120,000 - €170,000"
-          }
-        ]
-      },
-      "A": {
-        "modellen": [
-          {
-            "naam": "Model A1",
-            "prijs": "€80,000 - €100,000"
-          },
-          {
-            "naam": "Model A2",
-            "prijs": "€85,000 - €105,000"
-          }
-        ]
-      },
-      "B": {
-        "modellen": [
-          {
-            "naam": "Model B1",
-            "prijs": "€60,000 - €80,000"
-          },
-          {
-            "naam": "Model B2",
-            "prijs": "€65,000 - €85,000"
-          }
-        ]
-      },
-      "C": {
-        "modellen": [
-          {
-            "naam": "Model C1",
-            "prijs": "€40,000 - €60,000"
-          },
-          {
-            "naam": "Model C2",
-            "prijs": "€45,000 - €65,000"
-          }
-        ]
-      }
+  "autos": {
+    "S": {
+      "modellen": [
+        {
+          "Merk": "Porche",
+          "Model": "Panamera",
+          "Deuren": "5",
+          "Brandstof": "Benzine",
+          "Transmissie": "Automatisch",
+          "Prijs per dag": "€700",
+          "Bouwjaar": "2014"
+        },
+        {
+          "Merk": "Mercedes",
+          "Model": "S-Klasse",
+          "Deuren": "5",
+          "Brandstof": "Benzine",
+          "Transmissie": "Automatisch",
+          "Prijs per dag": "€700",
+          "Bouwjaar": "2016"
+        },
+        {
+          "Merk": "Audi",
+          "Model": "RS3",
+          "Deuren": "5",
+          "Brandstof": "Benzine",
+          "Transmissie": "Automatisch",
+          "Prijs per dag": "€700",
+          "Bouwjaar": "2020"
+        }
+      ]
+    },
+    "A": {
+      "modellen": [
+        {
+          "Merk": "BMW",
+          "Model": "5-Serie",
+          "Deuren": "5",
+          "Brandstof": "Diesel",
+          "Transmissie": "Automatisch",
+          "Prijs per dag": "€550",
+          "Bouwjaar": "2018"
+        },
+        {
+          "Merk": "Lexus",
+          "Model": "ES",
+          "Deuren": "5",
+          "Brandstof": "Hybride",
+          "Transmissie": "Automatisch",
+          "Prijs per dag": "550",
+          "Bouwjaar": "2017"
+        },
+        {
+          "Merk": "Volvo",
+          "Model": "S90",
+          "Deuren": "5",
+          "Brandstof": "Benzine",
+          "Transmissie": "Automatisch",
+          "Prijs per dag": "€550",
+          "Bouwjaar": "2016"
+        }
+      ]
+    },
+    "B": {
+      "modellen": [
+        {
+          "Merk": "Toyota",
+          "Model": "Camry",
+          "Deuren": "5",
+          "Brandstof": "Benzine",
+          "Transmissie": "Automatisch",
+          "Prijs per dag": "€400",
+          "Bouwjaar": "2015"
+        },
+        {
+          "Merk": "Ford",
+          "Model": "Fusion",
+          "Deuren": "5",
+          "Brandstof": "Benzine",
+          "Transmissie": "Automatisch",
+          "Prijs per dag": "400",
+          "Bouwjaar": "2014"
+        },
+        {
+          "Merk": "Honda",
+          "Model": "Accord",
+          "Deuren": "5",
+          "Brandstof": "Benzine",
+          "Transmissie": "Automatisch",
+          "Prijs per dag": "€400",
+          "Bouwjaar": "2013"
+        }
+      ]
+    },
+    "C": {
+      "modellen": [
+        {
+          "Merk": "Volkswagen",
+          "Model": "Golf",  
+          "Deuren": "5",
+          "Brandstof": "Benzine",
+          "Transmissie": "Automatisch",
+          "Prijs per dag": "€300",
+          "Bouwjaar": "2011",
+          "Image": "https://pngimg.com/d/volkswagen_PNG1824.png"
+        },
+        {
+          "Merk": "Hyundai",
+          "Model": "Sonata",
+          "Deuren": "5",
+          "Brandstof": "Benzine",
+          "Transmissie": "Automatisch",
+          "Prijs per dag": "€300",
+          "Bouwjaar": "2011"
+        },
+        {
+          "Merk": "Kia",
+          "Model": "Optima",
+          "Deuren": "5",
+          "Brandstof": "Benzine",
+          "Transmissie": "Automatisch",
+          "Prijs per dag": "€300",
+          "Bouwjaar": "2010"
+        }
+      ]
     }
   }
-  
+}

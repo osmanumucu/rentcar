@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -48,7 +48,46 @@
         </div>
     </nav>
 
-
+    <section id="SelectCarSection">
+        <h1>Auto Modellen</h1>
+        <h4>Kies wat je wilt</h4>
+        <p>Kies zelf welke optie het best bij jou past</p>
+        <div id="SelectCarContent">
+            <div style="width: 30%; display: flex; flex-direction: column; align-items: center; justify-content: center;" id="KlasButtons">
+                <button class="klas">S</button>
+                <button class="klas">A</button>
+                <button class="klas">B</button>
+                <button id="ButtonC" class="klas" onclick="Cklas()">C</button>
+            </div>
+            <img src="https://pngimg.com/d/volkswagen_PNG1824.png" alt="">
+            <div id="Specs">
+                <div class="spec">
+                    <span>Merk:</span>
+                    <span id="merk"></span>
+                </div>
+                <div class="spec">
+                    <span>Model:</span>
+                    <span id="model"></span>
+                </div>
+                <div class="spec" >
+                    <span>Bouwjaar:</span>
+                    <span id="bouwjaar"></span>
+                </div>
+                <div class="spec">
+                    <span>Deuren:</span>
+                    <span id="deuren"></span>
+                </div>
+                <div class="spec">
+                    <span>Transmissie:</span>
+                    <span id="transmissie"></span>
+                </div>
+                <div class="spec">
+                    <span>Brandstof:</span>
+                    <span id="brandstof"></span>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div>

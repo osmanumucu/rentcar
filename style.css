@@ -202,6 +202,10 @@ footer>div {
     justify-content: center;
     padding: 5%;
     width: 100%;
+    border-left: 10px solid #e7717d;
+    border-top: 10px solid #e7717d;
+    border-right: 10px solid #005c8e;
+    border-bottom: 10px solid #005c8e;
 }
 
 .log-in:nth-child(2)>nav {
@@ -396,4 +400,48 @@ form > button {
         width: 50%;
     }
     
+    #SelectCarSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #SelectCarContent {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #SelectCarContent > img {
+        width: 40%;
+    }
+
+    #Specs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+
+    .klas {
+        width: 60%;
+        height: 20%;
+        margin: 5px;
+        color: white;
+        background-color: #e7717d;
+        border: none;
+    }
+
+    .klas:hover {
+        background-color: #0087ca;
+        transition: 0.5s;
+    }
+
+    .spec {
+        margin: 5px;
+        border: 3px solid;
+        padding: 1%;
+        width: 60%;
+    }
 }
