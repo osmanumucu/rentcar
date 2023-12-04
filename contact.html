@@ -40,7 +40,7 @@
                         <a class="nav-link" href="#">Auto's</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
                 <a href="log-in.html"><button id="LogInBtn" class="me-0 btn">Log In</button></a>
@@ -50,24 +50,31 @@
 
     <section class="container py-3" id="ContactSection">
         <div id="ContactInfo">
-            <div class="Info">
+            <div class="Info mb-2">
                 <h1><i class="bi bi-geo-alt infoicon"></i></h1>
                 <h3 class="fw-bold">Adres</h2>
                 <p>Koningin Lahandanplein 31</p>
             </div>
-            <div class="Info">
+            <div class="Info my-2">
                 <h1><i class="bi bi-telephone"></i></h1>
                 <h3>Telefoonnummer</h3>
                 <p>+31 1234567890</p>
             </div>
-            <div class="Info">
+            <div class="Info mt-2">
                 <h1><i class="bi bi-envelope"></i></h1>
                 <h3>Email</h3>
                 <p>info@rentcar.nl</p>
             </div>
         </div>
-        <div id="ContactForm">
-            
+        <div id="ContactForm" class="px-5">
+            <h1>Neem contact op met ons</h1>
+            <p>Stuur een mailtje voor je vragen en we helpen je graag.</p>
+            <form action="">
+                <input  type="text" class="form-control rounded-0 mb-2" placeholder="Je naam">
+                <input type="email" class="form-control rounded-0 my-2" placeholder="Je email">
+                <input type="text" class="form-control rounded-0 mt-2" placeholder="Je vraag">
+                <button type="submit" class="verzenden">Verzenden</button>
+            </form>
         </div>
     </section>
 

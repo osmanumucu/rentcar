@@ -360,6 +360,9 @@ form > button {
 
 #ContactInfo{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Info {
@@ -368,6 +371,20 @@ form > button {
     height: 30%;
     width: 80%;
     align-items: center;
+}
+
+#ContactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.verzenden {
+    background-color: #e7717d;
+    color: white;
+    margin-top: 10px;
+    border: none;
 }
 
 @media (min-width: 992px) {
@@ -516,8 +533,19 @@ form > button {
     #ContactInfo {
         width: 30%;
         border-right: solid #0087ca;
+        justify-content: center;
     }
+
     #ContactForm {
         width: 70%;
+    }
+
+    #ContactSection {
+        display: flex;
+        flex-direction: row;
+    }
+
+    input:nth-child(3) {
+        height: 100%;
     }
 }
