@@ -204,8 +204,8 @@ footer>div {
     width: 100%;
     border-left: 10px solid #e7717d;
     border-top: 10px solid #e7717d;
-    border-right: 10px solid #005c8e;
-    border-bottom: 10px solid #005c8e;
+    border-right: 10px solid #0087ca;
+    border-bottom: 10px solid #0087ca;
 }
 
 .log-in:nth-child(2)>nav {
@@ -253,7 +253,7 @@ input {
 .input-box>i {
     position: absolute;
     right: 5%;
-    top: 20%;
+    top: 25%;
 }
 
 form {
@@ -298,6 +298,58 @@ form > button {
     width: 100%;
     opacity: 1;
     margin: 0;
+}
+
+#SelectCarSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.klas {
+    width: 50%;
+    height: 20%;
+    margin: 5px;
+    color: white;
+    background-color: #e7717d;
+    border: none;
+}
+
+#KlasButtons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.klas:hover {
+    background-color: #0087ca;
+    transition: 0.5s;
+}
+
+#SelectCarContent > img {
+    width: 100%;
+}
+
+#Specs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.spec {
+    margin: 5px;
+    border: 3px solid;
+    padding: 1%;
+    width: 60%;
+}
+
+#SelectCarContent {
+    width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -399,29 +451,15 @@ form > button {
         flex-direction: column;
         width: 50%;
     }
-    
-    #SelectCarSection {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
 
     #SelectCarContent {
         display: flex;
         justify-content: space-between;
+        width: 100%;
     }
 
     #SelectCarContent > img {
         width: 40%;
-    }
-
-    #Specs {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 30%;
     }
 
     .klas {
@@ -432,10 +470,22 @@ form > button {
         background-color: #e7717d;
         border: none;
     }
+    
+    #KlasButtons {
+        width: 30%;
+    }
 
     .klas:hover {
         background-color: #0087ca;
         transition: 0.5s;
+    }
+
+    #Specs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
     }
 
     .spec {

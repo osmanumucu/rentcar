@@ -9,7 +9,8 @@
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
           "Prijs per dag": "€700",
-          "Bouwjaar": "2014"
+          "Bouwjaar": "2014",
+          "Afbeelding": "https://purepng.com/public/uploads/large/purepng.com-porscheporscheporsche-automobilesporsche-carsporsche-brand-1701527596673kgzaj.png"
         },
         {
           "Merk": "Mercedes",
@@ -40,7 +41,8 @@
           "Brandstof": "Diesel",
           "Transmissie": "Automatisch",
           "Prijs per dag": "€550",
-          "Bouwjaar": "2018"
+          "Bouwjaar": "2018",
+          "Afbeelding": "https://www.motortrend.com/uploads/sites/10/2019/08/2019-bmw-5-series-540i-m-sport-design-rwd-sedan-angular-front.png"
         },
         {
           "Merk": "Lexus",
@@ -71,7 +73,8 @@
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
           "Prijs per dag": "€400",
-          "Bouwjaar": "2015"
+          "Bouwjaar": "2015",
+          "Afbeelding": "https://png2.cleanpng.com/sh/73686378099298aa8f7e7ac5b9373190/L0KzQYm3U8I0N517fZH0aYP2gLBuTcIxOGcyjNHEb4TkPbTojgJ6NWM1SKk2dHB8f8XoTfNidaNARaQ5MEmwhLFCjCRiNZRmReZ4eXB3cX68gfI2PWM3TKltN0O3QHA3VMI6QGc5T6MAMkG7Q4O7WMQ2OWQARuJ3Zx==/kisspng-2006-toyota-camry-2007-toyota-camry-2009-toyota-ca-toyota-5ab552247d7340.0429864715218324845139.png"
         },
         {
           "Merk": "Ford",
@@ -103,7 +106,7 @@
           "Transmissie": "Automatisch",
           "Prijs per dag": "€300",
           "Bouwjaar": "2011",
-          "Image": "https://pngimg.com/d/volkswagen_PNG1824.png"
+          "Afbeelding": "https://www.pngmart.com/files/22/Volkswagen-Golf-R-PNG-Isolated-File.png"
         },
         {
           "Merk": "Hyundai",
