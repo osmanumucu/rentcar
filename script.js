@@ -4,6 +4,7 @@ var bouwjaarText = document.getElementById("bouwjaar");
 var deurenText = document.getElementById("deuren");
 var transmissieText = document.getElementById("transmissie");
 var brandstofText = document.getElementById("brandstof");
+var prijsText = document.getElementById("prijs")
 
 let autosData = null;
 
@@ -34,6 +35,7 @@ function Golf() {
         deurenText.textContent = `${golf.Deuren}`;
         transmissieText.textContent = `${golf.Transmissie}`;
         brandstofText.textContent = `${golf.Brandstof}`;
+        prijsText.textContent = `${golf.Prijs}`
         document.getElementById("autoAfbeelding").src = golf.Afbeelding;
     } else {
         merkText.textContent = "Er is een fout opgetreden";
@@ -62,6 +64,7 @@ function Toyota() {
         deurenText.textContent = `${Toyota.Deuren}`;
         transmissieText.textContent = `${Toyota.Transmissie}`;
         brandstofText.textContent = `${Toyota.Brandstof}`;
+        prijsText.textContent = `${Toyota.Prijs}`
         document.getElementById("autoAfbeelding").src = Toyota.Afbeelding;
     } else {
         merkText.textContent = "Er is een fout opgetreden";
@@ -89,6 +92,7 @@ function BMW() {
         deurenText.textContent = `${BMW.Deuren}`;
         transmissieText.textContent = `${BMW.Transmissie}`;
         brandstofText.textContent = `${BMW.Brandstof}`;
+        prijsText.textContent = `${BMW.Prijs}`
         document.getElementById("autoAfbeelding").src = BMW.Afbeelding;
     } else {
         merkText.textContent = "Er is een fout opgetreden";
@@ -116,6 +120,7 @@ function Porche() {
         deurenText.textContent = `${Porche.Deuren}`;
         transmissieText.textContent = `${Porche.Transmissie}`;
         brandstofText.textContent = `${Porche.Brandstof}`;
+        prijsText.textContent = `${Porche.Prijs}`
         document.getElementById("autoAfbeelding").src = Porche.Afbeelding;
     } else {
         merkText.textContent = "Er is een fout opgetreden";
@@ -125,3 +130,4 @@ function Porche() {
         transmissieText.textContent = "Er is een fout opgetreden";
         brandstofText.textContent = "Er is een fout opgetreden";    }
 }
+

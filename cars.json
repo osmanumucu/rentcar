@@ -8,7 +8,7 @@
           "Deuren": "5",
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
-          "Prijs per dag": "€700",
+          "Prijs": "€700",
           "Bouwjaar": "2014",
           "Afbeelding": "https://purepng.com/public/uploads/large/purepng.com-porscheporscheporsche-automobilesporsche-carsporsche-brand-1701527596673kgzaj.png"
         },
@@ -18,8 +18,9 @@
           "Deuren": "5",
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
-          "Prijs per dag": "€700",
-          "Bouwjaar": "2016"
+          "Prijs": "€700",
+          "Bouwjaar": "2016",
+          "Afbeelding": "https://www.motortrend.com/uploads/sites/10/2017/11/2016-mercedes-benz-s-class-550-sedan-angular-front.png"
         },
         {
           "Merk": "Audi",
@@ -27,8 +28,10 @@
           "Deuren": "5",
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
-          "Prijs per dag": "€700",
-          "Bouwjaar": "2020"
+          "Prijs": "€700",
+          "Bouwjaar": "2020",
+          "Afbeelding": "https://www.motortrend.com/uploads/sites/5/2020/06/2020-audi-rs3.png"
+          
         }
       ]
     },
@@ -40,7 +43,7 @@
           "Deuren": "5",
           "Brandstof": "Diesel",
           "Transmissie": "Automatisch",
-          "Prijs per dag": "€550",
+          "Prijs": "€550",
           "Bouwjaar": "2018",
           "Afbeelding": "https://www.motortrend.com/uploads/sites/10/2019/08/2019-bmw-5-series-540i-m-sport-design-rwd-sedan-angular-front.png"
         },
@@ -50,7 +53,7 @@
           "Deuren": "5",
           "Brandstof": "Hybride",
           "Transmissie": "Automatisch",
-          "Prijs per dag": "550",
+          "Prijs": "550",
           "Bouwjaar": "2017"
         },
         {
@@ -59,7 +62,7 @@
           "Deuren": "5",
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
-          "Prijs per dag": "€550",
+          "Prijs": "€550",
           "Bouwjaar": "2016"
         }
       ]
@@ -72,7 +75,7 @@
           "Deuren": "5",
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
-          "Prijs per dag": "€400",
+          "Prijs": "€400",
           "Bouwjaar": "2015",
           "Afbeelding": "https://png2.cleanpng.com/sh/73686378099298aa8f7e7ac5b9373190/L0KzQYm3U8I0N517fZH0aYP2gLBuTcIxOGcyjNHEb4TkPbTojgJ6NWM1SKk2dHB8f8XoTfNidaNARaQ5MEmwhLFCjCRiNZRmReZ4eXB3cX68gfI2PWM3TKltN0O3QHA3VMI6QGc5T6MAMkG7Q4O7WMQ2OWQARuJ3Zx==/kisspng-2006-toyota-camry-2007-toyota-camry-2009-toyota-ca-toyota-5ab552247d7340.0429864715218324845139.png"
         },
@@ -82,7 +85,7 @@
           "Deuren": "5",
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
-          "Prijs per dag": "400",
+          "Prijs": "400",
           "Bouwjaar": "2014"
         },
         {
@@ -91,7 +94,7 @@
           "Deuren": "5",
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
-          "Prijs per dag": "€400",
+          "Prijs": "€400",
           "Bouwjaar": "2013"
         }
       ]
@@ -104,7 +107,7 @@
           "Deuren": "5",
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
-          "Prijs per dag": "€300",
+          "Prijs": "€300",
           "Bouwjaar": "2011",
           "Afbeelding": "https://www.pngmart.com/files/22/Volkswagen-Golf-R-PNG-Isolated-File.png"
         },
@@ -114,7 +117,7 @@
           "Deuren": "5",
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
-          "Prijs per dag": "€300",
+          "Prijs": "€300",
           "Bouwjaar": "2011"
         },
         {
@@ -123,7 +126,7 @@
           "Deuren": "5",
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
-          "Prijs per dag": "€300",
+          "Prijs": "€300",
           "Bouwjaar": "2010"
         }
       ]

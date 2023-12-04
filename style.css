@@ -352,6 +352,24 @@ form > button {
     width: 100%;
 }
 
+.tier {
+    font-size: larger;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+#ContactInfo{
+    width: 100%;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 80%;
+    align-items: center;
+}
+
 @media (min-width: 992px) {
     #IntroductieSect {
         display: flex;
@@ -464,7 +482,7 @@ form > button {
 
     .klas {
         width: 60%;
-        height: 20%;
+        height: 15%;
         margin: 5px;
         color: white;
         background-color: #e7717d;
@@ -493,5 +511,13 @@ form > button {
         border: 3px solid;
         padding: 1%;
         width: 60%;
+    }
+
+    #ContactInfo {
+        width: 30%;
+        border-right: solid #0087ca;
+    }
+    #ContactForm {
+        width: 70%;
     }
 }
