@@ -30,7 +30,7 @@
           "Transmissie": "Automatisch",
           "Prijs": "€700",
           "Bouwjaar": "2020",
-          "Afbeelding": "https://www.motortrend.com/uploads/sites/5/2020/06/2020-audi-rs3.png"
+          "Afbeelding": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/7c34ebf9-94ad-45cc-a4ea-a57b356f3fe2/701cbd48-c94c-4323-ad47-12c00c5ac1f4.png"
           
         }
       ]
@@ -54,7 +54,8 @@
           "Brandstof": "Hybride",
           "Transmissie": "Automatisch",
           "Prijs": "550",
-          "Bouwjaar": "2017"
+          "Bouwjaar": "2017",
+          "Afbeelding": "https://www.motortrend.com/uploads/sites/10/2016/09/2017-lexus-es-350-sedan-angular-front.png"
         },
         {
           "Merk": "Volvo",
@@ -63,7 +64,8 @@
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
           "Prijs": "€550",
-          "Bouwjaar": "2016"
+          "Bouwjaar": "2016",
+          "Afbeelding": "https://groupeparkavenue.com/sites/default/files/styles/scale_1200/https/images.swift.fuseinteractive.ca/chrome/media/ChromeImageGallery/ColorMatched_01/Transparent/1280/cc_2022VOC09_01_1280/cc_2022VOC090003_01_1280_707.png?itok=MXac-5mH"
         }
       ]
     },
@@ -86,7 +88,8 @@
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
           "Prijs": "400",
-          "Bouwjaar": "2014"
+          "Bouwjaar": "2014",
+          "Afbeelding": "https://www.motortrend.com/uploads/sites/10/2015/11/2014-ford-fusion-i4-se-sedan-angular-front.png"
         },
         {
           "Merk": "Honda",
@@ -95,7 +98,8 @@
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
           "Prijs": "€400",
-          "Bouwjaar": "2013"
+          "Bouwjaar": "2013",
+          "Afbeelding": "https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/8bf124e5-eb5b-4013-9551-a77ac732c5b8/a56c20f0-22b8-4466-a9ae-34edf9b5a24a.png"
         }
       ]
     },
@@ -118,7 +122,8 @@
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
           "Prijs": "€300",
-          "Bouwjaar": "2011"
+          "Bouwjaar": "2011",
+          "Afbeelding": "https://www.motortrend.com/uploads/sites/10/2015/11/2011-hyundai-sonata-limited-i4-at-pzev-sedan-angular-front.png"
         },
         {
           "Merk": "Kia",
@@ -127,7 +132,8 @@
           "Brandstof": "Benzine",
           "Transmissie": "Automatisch",
           "Prijs": "€300",
-          "Bouwjaar": "2010"
+          "Bouwjaar": "2010",
+          "Afbeelding": "https://platform.cstatic-images.com/in/v2/stock_photos/9ca61775-321a-4fd7-b10b-78cd3301b354/4e81fa41-ff60-4cfc-9dfa-5c22bba0cbf4.png"
         }
       ]
     }

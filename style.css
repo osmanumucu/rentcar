@@ -397,11 +397,6 @@ input:nth-child(3) {
     height: 150px;
 }
 
-.klas:focus {
-    transform: translateY(-60px);
-    transition: 0.3s;
-}
-
 .move-up {
     transform: translateY(-60px); /* Moves the button 10px upwards */
 }
@@ -420,6 +415,15 @@ input:nth-child(3) {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+.optie {
+    background-color: #0087ca;
+    color: gold;
+    border-radius: 0;
+    border: none;
+    padding: 2%;
+    width: 32%;
 }
 
 @media (min-width: 992px) {
@@ -540,6 +544,7 @@ input:nth-child(3) {
         color: white;
         background-color: #e7717d;
         border: none;
+        transition: 0.3s;
     }
     
     #KlasButtons {
