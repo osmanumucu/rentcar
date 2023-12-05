@@ -308,12 +308,13 @@ form > button {
 }
 
 .klas {
-    width: 50%;
+    width: 70%;
     height: 20%;
     margin: 5px;
     color: white;
     background-color: #e7717d;
     border: none;
+    z-index: 1;
 }
 
 #KlasButtons {
@@ -322,6 +323,7 @@ form > button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .klas:hover {
@@ -363,6 +365,7 @@ form > button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-bottom: solid #0087ca;
 }
 
 .Info {
@@ -385,6 +388,36 @@ form > button {
     color: white;
     margin-top: 10px;
     border: none;
+    padding: 3%;
+}
+
+input:nth-child(3) {
+    height: 150px;
+}
+
+.klas:focus {
+    transform: translateY(-60px);
+    transition: 0.3s;
+}
+
+.move-up {
+    transform: translateY(-60px); /* Moves the button 10px upwards */
+}
+
+#OptiesDiv {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 70%;
+    justify-content: space-around;
+}
+
+.Opties {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -532,12 +565,15 @@ form > button {
 
     #ContactInfo {
         width: 30%;
-        border-right: solid #0087ca;
+        border-right: solid #0088cc;
         justify-content: center;
+        border-bottom: none;
     }
 
     #ContactForm {
         width: 70%;
+        align-items: start;
+        text-align: start;
     }
 
     #ContactSection {
@@ -547,5 +583,9 @@ form > button {
 
     input:nth-child(3) {
         height: 100%;
+    }
+
+    .verzenden {
+        padding: 1%;
     }
 }

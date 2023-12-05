@@ -1,3 +1,22 @@
+document.querySelectorAll('.klas').forEach(button => {
+    button.addEventListener('focus', function () {
+        let prev = this.previousElementSibling;
+        while (prev) {
+            prev.classList.add('move-up');
+            prev = prev.previousElementSibling;
+        }
+    });
+
+    button.addEventListener('blur', function () {
+        let prev = this.previousElementSibling;
+        while (prev) {
+            prev.classList.remove('move-up');
+            prev = prev.previousElementSibling;
+        }
+    });
+});
+
+
 var merkText = document.getElementById("merk");
 var modelText = document.getElementById("model");
 var bouwjaarText = document.getElementById("bouwjaar");
@@ -72,7 +91,8 @@ function Toyota() {
         bouwjaarText.textContent = "Er is een fout opgetreden";
         deurenText.textContent = "Er is een fout opgetreden";
         transmissieText.textContent = "Er is een fout opgetreden";
-        brandstofText.textContent = "Er is een fout opgetreden";    }
+        brandstofText.textContent = "Er is een fout opgetreden";
+    }
 }
 
 function BMW() {
@@ -100,7 +120,8 @@ function BMW() {
         bouwjaarText.textContent = "Er is een fout opgetreden";
         deurenText.textContent = "Er is een fout opgetreden";
         transmissieText.textContent = "Er is een fout opgetreden";
-        brandstofText.textContent = "Er is een fout opgetreden";    }
+        brandstofText.textContent = "Er is een fout opgetreden";
+    }
 }
 
 function Porche() {
@@ -128,6 +149,7 @@ function Porche() {
         bouwjaarText.textContent = "Er is een fout opgetreden";
         deurenText.textContent = "Er is een fout opgetreden";
         transmissieText.textContent = "Er is een fout opgetreden";
-        brandstofText.textContent = "Er is een fout opgetreden";    }
+        brandstofText.textContent = "Er is een fout opgetreden";
+    }
 }
 
